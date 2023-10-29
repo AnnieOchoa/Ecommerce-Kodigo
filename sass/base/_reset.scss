@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+/* Variables => Root */
+/* --->> Colores */
+
+$main_green:#17a23c; 
+$main_grey: #f5f5f5eb;
+
+/* --->> Breakpoints */
+
+$tablet: 968px;
+$phone: 600px;
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: $main_grey;
+}
+
+

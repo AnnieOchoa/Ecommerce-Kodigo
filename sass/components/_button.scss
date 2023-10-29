@@ -1,0 +1,30 @@
+
+.base-btn{
+    border: 1px solid $main_green;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 300ms;
+}
+
+.primary-btn{
+    @extend .base-btn;
+    background-color: $main_green;
+    color: #fff;
+    &:hover{
+        background: #fff;
+        color: $main_green;
+    }
+
+}
+
+.outlined-btn{
+    @extend .base-btn;
+    background-color: #fff;
+    color:$main_green;
+    &:hover{
+        background-color: $main_green;
+        color: #fff;
+    }
+}

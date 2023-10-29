@@ -1,0 +1,47 @@
+.main-header {
+  background: #fff;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    text-decoration: none;
+    p {
+      font-weight: bold;
+      font-size: 30px;
+      color: black;
+      span {
+        font-weight: normal;
+      }
+    }
+  }
+  &__search {
+    display: none;
+    @media (min-width: $tablet) {
+      display: block;
+      flex: 0 1 40%;
+    }
+  }
+  &__cta {
+    display: none;
+    @media (min-width: $phone) {
+      display: flex;
+      gap: 15px;
+
+    }
+  }
+  &__hamburger {
+    @media (min-width: $tablet) {
+      display: none;
+    }
+    button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      i {
+        font-size: 25px;
+      }
+    }
+  }
+}
