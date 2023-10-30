@@ -1,5 +1,5 @@
 /* Base */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:wght@300;400;500;600;700;900&display=swap");
 /* Variables => Root */
 /* --->> Colores */
 /* --->> Breakpoints */
@@ -93,7 +93,7 @@ body {
   font-size: 18px;
 }
 
-.base-btn, .outlined-btn, .primary-btn {
+.base-btn, .outlined-btn, .white-btn, .primary-btn {
   border: 1px solid #17a23c;
   padding: 10px 30px;
   border-radius: 10px;
@@ -111,15 +111,86 @@ body {
   color: #17a23c;
 }
 
-.outlined-btn {
+.white-btn {
+  background-color: #fff;
+}
+.white-btn:hover {
+  background-color: #17a23c;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.outlined-btn, .white-btn {
   background-color: #fff;
   color: #17a23c;
 }
-.outlined-btn:hover {
+.outlined-btn:hover, .white-btn:hover {
   background-color: #17a23c;
   color: #fff;
 }
 
 /* Layout */
+.ad-banner {
+  margin-top: 50px;
+  background-image: url("https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698618721/wave-haikei_ibuq1y.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  padding: 5px;
+}
+@media (max-width: 1166px) {
+  .ad-banner {
+    background-image: url("https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698623812/wave-haikei_1_idqrw2.svg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+}
+.ad-banner__text {
+  max-width: 500px;
+  text-align: center;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+@media (max-width: 1166px) {
+  .ad-banner__text {
+    max-width: 100%;
+    height: 150px;
+  }
+}
+.ad-banner__text p {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
+  font-family: agbalumo;
+}
+@media (max-width: 1166px) {
+  .ad-banner__text p {
+    font-size: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .ad-banner__text p {
+    font-size: 25px;
+  }
+}
+
+.ad-banner__wrapper {
+  background-image: url("https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698619591/Screenshot_2023-10-29_at_5.45.38_PM_ccr7ja.png");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media (max-width: 1166px) {
+  .ad-banner__wrapper {
+    background-image: url("https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698619591/Screenshot_2023-10-29_at_5.45.38_PM_ccr7ja.png");
+    background-position: center;
+    background-size: contain;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

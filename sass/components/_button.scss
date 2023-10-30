@@ -19,6 +19,16 @@
 
 }
 
+.white-btn{
+    @extend .outlined-btn;
+    background-color: #fff;
+    &:hover{
+        background-color: $main_green;
+        color: #fff;
+        border: 1px solid #fff;
+    }
+}
+
 .outlined-btn{
     @extend .base-btn;
     background-color: #fff;
