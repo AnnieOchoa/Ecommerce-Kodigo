@@ -138,6 +138,7 @@ body {
   background-position: center;
   height: 500px;
   padding: 5px;
+  border: 1px solid #e6e6e6;
 }
 @media (max-width: 1166px) {
   .ad-banner {
@@ -191,6 +192,17 @@ body {
     background-position: center;
     background-size: contain;
   }
+}
+
+.discount-images-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 50px;
+}
+.discount-images-section img {
+  height: 400px;
 }
 
 /*# sourceMappingURL=styles.css.map */
