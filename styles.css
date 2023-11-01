@@ -200,9 +200,32 @@ body {
   justify-content: center;
   gap: 15px;
   margin-top: 50px;
+  cursor: pointer;
+  ox-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .discount-images-section img {
+  transition: 300ms;
   height: 400px;
+  border-radius: 30px;
+}
+.discount-images-section img:hover {
+  transform: scale(1.05);
+}
+
+.section-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+.section-description h2 {
+  font-size: 34px;
+  color: #00433E;
+}
+.section-description a {
+  font-size: 16px;
+  color: #00433E;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */
