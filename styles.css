@@ -201,7 +201,6 @@ body {
   gap: 15px;
   margin-top: 50px;
   cursor: pointer;
-  ox-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .discount-images-section img {
   transition: 300ms;
@@ -226,6 +225,10 @@ body {
   font-size: 16px;
   color: #00433E;
   font-weight: bold;
+}
+
+.clothes-discount-banner {
+  margin: 40px 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
