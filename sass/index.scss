@@ -4,11 +4,12 @@
 
 
 /* Components */
-@import "components/header";
+@import 'components/header';
 @import 'components/search-bar';
 @import 'components/button';
+@import 'components/card';
 
 /* Layout */
 @import "layouts/ad_banner";
 @import "layouts/discount_section";
-@import "layouts/ad_women_banner";
+@import "layouts/section_banner";

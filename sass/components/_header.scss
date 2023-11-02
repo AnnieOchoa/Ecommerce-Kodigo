@@ -1,5 +1,6 @@
 .main-header {
   background: #fff;
+  position: relative;
   &__wrapper {
     display: flex;
     justify-content: space-between;
@@ -41,6 +42,32 @@
       cursor: pointer;
       i {
         font-size: 25px;
+      }
+    }
+  }
+  &__navigation{
+    position: absolute;
+    width: 100%;
+    max-width: 350px;
+    background-color: #fff;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    height: 35px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    align-items: center;
+    a{
+      text-decoration: none;
+      color: $dark_green;
+      font-weight: normal;
+      transition: 300ms;
+      &:hover{
+        text-decoration: underline;
+        font-weight: bold;
       }
     }
   }

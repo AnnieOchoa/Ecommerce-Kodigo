@@ -20,6 +20,7 @@ body {
 /* Components */
 .main-header {
   background: #fff;
+  position: relative;
 }
 .main-header__wrapper {
   display: flex;
@@ -67,6 +68,32 @@ body {
 }
 .main-header__hamburger button i {
   font-size: 25px;
+}
+.main-header__navigation {
+  position: absolute;
+  width: 100%;
+  max-width: 350px;
+  background-color: #fff;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  height: 35px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  align-items: center;
+}
+.main-header__navigation a {
+  text-decoration: none;
+  color: #00433E;
+  font-weight: normal;
+  transition: 300ms;
+}
+.main-header__navigation a:hover {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .search-bar {
@@ -129,9 +156,82 @@ body {
   color: #fff;
 }
 
+.card {
+  width: 300px;
+  padding: 30px;
+  border: 1px solid #e6e6e6;
+  border-radius: 15px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: 300ms;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card:hover {
+  transform: scale(1.1);
+  z-index: 1000;
+}
+.card__img {
+  display: grid;
+  place-items: center;
+}
+.card img {
+  width: 80%;
+  margin: 0 auto;
+  height: 200px;
+  object-fit: contain;
+}
+.card__title {
+  font-size: 20px;
+  text-align: center;
+  color: #00433E;
+}
+.card__description {
+  text-align: center;
+}
+.card__price p {
+  color: #17a23c;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+.card__old-price {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: line-through;
+}
+.card__old-price p {
+  margin-top: 0.5px;
+}
+.card__cta button {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.divider {
+  width: 70%;
+  border: 0.6px solid #e6e6e6;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-bottom: 90px;
+}
+.cards-container .card:nth-child(2) {
+  transform: scale(1.1);
+}
+@media (max-width: 1192px) {
+  .cards-container .card:nth-child(2) {
+    transform: scale(1);
+  }
+}
+
 /* Layout */
 .ad-banner {
-  margin-top: 50px;
+  margin-top: 90px;
   background-image: url("https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698618721/wave-haikei_ibuq1y.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -229,6 +329,9 @@ body {
 
 .clothes-discount-banner {
   margin: 40px 0;
+}
+.clothes-discount-banner img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
