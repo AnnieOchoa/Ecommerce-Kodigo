@@ -6,9 +6,12 @@
     margin-top: 50px;
     cursor: pointer;
     img{
+        width: 100%;
+        max-width: 400px;
         transition: 300ms;
         height: 400px;
         border-radius: 30px;
+        object-fit: cover;
     }
     img:hover{
         transform: scale(1.05);
@@ -24,10 +27,16 @@
     h2{
         font-size: 34px;
         color: $dark_green;
+        @media (max-width: 768px){
+            font-size: 25px;
+        }
     }
     a {
         font-size: 16px;
         color: $dark_green;
         font-weight: bold;
+        @media (max-width: 768px){
+            font-size: 14px;
+        }
     }
 }
