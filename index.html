@@ -13,8 +13,10 @@
       rel="stylesheet"
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
+    <link rel="prefetch" href="https://res.cloudinary.com" />
   </head>
   <body>
+    <!-- header -->
     <header class="main-header">
       <div class="main-header__wrapper container">
         <a class="main-header__logo" href="/index.html">
@@ -37,27 +39,364 @@
           </button>
         </div>
       </div>
+
+      <nav class="main-header__navigation">
+        <a href="#">Inicio</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Nosotros</a>
+      </nav>
     </header>
+    <!-- End header -->
 
     <!-- hero -banner -->
-    <section class="ad-banner__wrapper container">
+    <div class="ad-banner__wrapper container">
       <section class="ad-banner">
         <div class="ad-banner__text">
           <p>¡APROVECHA NUESTROS DESCUENTOS!</p>
           <button class="white-btn">Conoce Más</button>
         </div>
       </section>
-    </section>
+    </div>
+    <!-- End hero -banner -->
 
+    <!-- Main -->
     <main>
+      <div class="section-description-wrapper container">
+        <div class="section-description">
+          <h2>Descuentos</h2>
+          <a href="#">Ver todo</a>
+        </div>
+      </div>
+
+      <!-- Section discount 1 -->
       <section class="discount-images-section container">
-        <img src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698805121/Screenshot_2023-10-30_at_9.16.01_PM_gahins.png" alt="Kids-clothes">
-        <img src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698805118/Screenshot_2023-10-30_at_9.19.59_PM_b0vz7h.png" alt="kitchen-accesories">
-        <img src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698805117/Screenshot_2023-10-31_at_9.09.34_PM_nuopyg.png" alt="room">
-        <img src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698805116/Screenshot_2023-10-30_at_9.18.47_PM_wm0fs0.png" alt="kids-room">
-        <img src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698808064/Screenshot_2023-10-31_at_10.07.38_PM_wtfgfh.png" alt="toys">
-        <img src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698808146/Screenshot_2023-10-31_at_10.08.58_PM_mjxmth.png" alt="towels">
-      </section>      
+        <img
+          src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698805121/Screenshot_2023-10-30_at_9.16.01_PM_gahins.png"
+          alt="Kids-clothes"
+        />
+        <img
+          src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698805118/Screenshot_2023-10-30_at_9.19.59_PM_b0vz7h.png"
+          alt="kitchen-accesories"
+        />
+        <img
+          src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698805117/Screenshot_2023-10-31_at_9.09.34_PM_nuopyg.png"
+          alt="room"
+        />
+        <img
+          src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698805116/Screenshot_2023-10-30_at_9.18.47_PM_wm0fs0.png"
+          alt="kids-room"
+        />
+        <img
+          src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698808064/Screenshot_2023-10-31_at_10.07.38_PM_wtfgfh.png"
+          alt="toys"
+        />
+        <img
+          src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698808146/Screenshot_2023-10-31_at_10.08.58_PM_mjxmth.png"
+          alt="towels"
+        />
+      </section>
+      <!-- End Section discount 1 -->
+
+      <!-- Cards section -->
+      <div class="section-description-wrapper container">
+        <div class="section-description">
+          <h2>Descuentos en tecnología</h2>
+          <a href="#">Ver todo</a>
+        </div>
+      </div>
+
+      <!-- Cards section - tecnology -->
+      <section class="cards-container container">
+        <article class="card">
+          <div class="card__img">
+            <img
+              src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698875878/Screenshot_2023-11-01_at_4.57.21_PM-removebg-preview_bgjdqq.png"
+              alt="Sony headphones"
+            />
+          </div>
+
+          <div class="card__title">
+            <h2>Sony</h2>
+          </div>
+
+          <div class="card__description">
+            <p>Audífonos bt over ear con noise cancelling azul</p>
+          </div>
+
+          <hr class="divider" />
+
+          <div class="card__price">
+            <p>$269.00</p>
+          </div>
+
+          <div class="card__old-price">
+            <p>$399.00</p>
+          </div>
+
+          <div class="card__cta">
+            <button class="primary-btn" type="submit">
+              Agregar al carrito
+            </button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img">
+            <img
+              src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698868912/Screenshot_2023-11-01_at_3.01.08_PM-removebg-preview_xcujkj.png"
+              alt="Xiaomi watch"
+            />
+          </div>
+
+          <div class="card__title">
+            <h2>Xiaomi</h2>
+          </div>
+
+          <div class="card__description">
+            <p>
+              Bundle smart watch S1 gl negro + Audífono in ear tws Redmi Buds 4
+              blanco
+            </p>
+          </div>
+
+          <hr class="divider" />
+
+          <div class="card__price">
+            <p>$209.00</p>
+          </div>
+
+          <div class="card__old-price">
+            <p>$399.00</p>
+          </div>
+
+          <div class="card__cta">
+            <button class="primary-btn" type="submit">
+              Agregar al carrito
+            </button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img">
+            <img
+              src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698876267/Screenshot_2023-11-01_at_5.03.44_PM-removebg-preview_wcvdkg.png"
+              alt="Pods JBL"
+            />
+          </div>
+
+          <div class="card__title">
+            <h2>JBL</h2>
+          </div>
+
+          <div class="card__description">
+            <p>Audífono bt true wireless vibe flex blanco</p>
+          </div>
+
+          <hr class="divider" />
+
+          <div class="card__price">
+            <p>$89.00</p>
+          </div>
+
+          <div class="card__old-price">
+            <p>$109.00</p>
+          </div>
+
+          <div class="card__cta">
+            <button class="primary-btn" type="submit">
+              Agregar al carrito
+            </button>
+          </div>
+        </article>
+      </section>
+      <!-- EndCards section - tecnlogy -->
+
+      <!-- Cards section - christmass -->
+
+      <div class="section-description-wrapper container">
+        <div class="section-description">
+          <h2>Descuentos en articulos navideños</h2>
+          <a href="#">Ver todo</a>
+        </div>
+      </div>
+
+      <section class="cards-container container">
+        <article class="card">
+          <div class="card__img">
+            <img
+              src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698885094/Screenshot_2023-11-01_at_5.30.31_PM-removebg-preview_1_mzihpz.png"
+              alt="christmass tree"
+            />
+          </div>
+
+          <div class="card__title">
+            <h2>Árbol Nevado</h2>
+          </div>
+
+          <div class="card__description">
+            <p>Árbol nevado 7 pies mezcla de ramas 1573 tips</p>
+          </div>
+
+          <hr class="divider" />
+
+          <div class="card__price">
+            <p>$349.00</p>
+          </div>
+
+          <div class="card__old-price">
+            <p>$449.00</p>
+          </div>
+
+          <div class="card__cta">
+            <button class="primary-btn" type="submit">
+              Agregar al carrito
+            </button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img">
+            <img
+              src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698885590/Screenshot_2023-11-01_at_7.39.23_PM-removebg-preview_dgjc9y.png"
+              alt="pesebre"
+            />
+          </div>
+
+          <div class="card__title">
+            <h2>Napco</h2>
+          </div>
+
+          <div class="card__description">
+            <p>Set de nacimiento</p>
+          </div>
+
+          <hr class="divider" />
+
+          <div class="card__price">
+            <p>$299.90</p>
+          </div>
+
+          <div class="card__old-price">
+            <p>$399.90</p>
+          </div>
+
+          <div class="card__cta">
+            <button class="primary-btn" type="submit">
+              Agregar al carrito
+            </button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img">
+            <img
+              src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698886036/Screenshot_2023-11-01_at_7.46.47_PM-removebg-preview_ykdxbl.png"
+              alt="green christimass tree"
+            />
+          </div>
+
+          <div class="card__title">
+            <h2>Árbol Verde</h2>
+          </div>
+
+          <div class="card__description">
+            <p>Árbol verde 7 pies mezcla de ramas 1130 tips</p>
+          </div>
+
+          <hr class="divider" />
+
+          <div class="card__price">
+            <p>$249.90</p>
+          </div>
+
+          <div class="card__old-price">
+            <p>$349.90</p>
+          </div>
+
+          <div class="card__cta">
+            <button class="primary-btn" type="submit">
+              Agregar al carrito
+            </button>
+          </div>
+        </article>
+      </section>
+      <!-- EndCards section - christmass -->
+      <!-- End cards section -->
+
+      <!-- people discount section banner -->
+      <div class="container">
+        <section class="clothes-discount-banner">
+          <img
+            src="https://res.cloudinary.com/dy6gbr4oc/image/upload/v1698857656/Descuento_credisiman_se_vera_al_ingresar_nu%CC%81mero_de_tarjeta_1_yzr3dm.png"
+            alt="promo-banner2"
+          />
+        </section>
+      </div>
+      <!-- End people discount section banner -->
     </main>
+    <!-- End Main -->
+
+    <!-- footer -->
+    <footer class="main-footer">
+      <div class="main-footer__wrapper container">
+        <div class="main-footer__wrapper--logo">
+          <p>Si<span>Man</span></p>
+        </div>
+
+        <div class="main-footer__wrapper--navigation">
+          <div class="main-footer__wrapper--navigation-links">
+            <p>Siman Corporativo</p>
+            <nav>
+              <a href="#">Historia</a>
+              <a href="#">Servicios</a>
+              <a href="#">Sucursales</a>
+              <a href="#">Quiénes Somos</a>
+              <a href="#">Visión y Misión</a>
+              <a href="#">Trabaja con nosotros</a>
+            </nav>
+          </div>
+
+          <div class="main-footer__wrapper--navigation-links">
+            <p>Programas</p>
+            <nav>
+              <a href="#">Monedero</a>
+              <a href="#">Garantías</a>
+              <a href="#">Siman PRO</a>
+              <a href="#">Credisiman</a>
+              <a href="#">Marketplace</a>
+              <a href="#">Certificados de regalo</a>
+            </nav>
+          </div>
+
+          <div class="main-footer__wrapper--navigation-links">
+            <p>Servicio al Cliente</p>
+            <nav>
+              <a href="#">Contáctanos</a>
+              <a href="#">Condiciones Ofertas</a>
+              <a href="#">Preguntas Frecuentes</a>
+              <a href="#">Seguridad del sitio</a>
+              <a href="#">Política de privacidad</a>
+            </nav>
+          </div>
+
+          <div class="main-footer__wrapper--navigation-links">
+            <p>Servicio al Cliente</p>
+            <nav>
+              <a href="#">Boletín COVID-19</a>
+              <a href="#">Condiciones de uso</a>
+              <a href="#">Derecho de retracto</a>
+              <a href="#">Términos y condiciones</a>
+              <a href="#">Política de devoluciones</a>
+            </nav>
+          </div>
+        </div>
+
+        <p>
+          © 2000-2023 Copyright Almacenes Siman El Salvador. Reservados todos
+          los derechos.
+        </p>
+      </div>
+    </footer>
+    <!-- End footer -->
   </body>
 </html>
